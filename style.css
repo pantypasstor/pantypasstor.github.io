@@ -1,0 +1,67 @@
+:root {
+    --pink: #ff007f;
+    --black: #0a0a0a;
+    --dark: #111;
+    --light: #f4f4f4;
+    --text-light: white;
+    --text-dark: #111;
+}
+
+/* Dark mode variables */
+body.dark-mode {
+    --bg: #000;
+    --text: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--black);
+    color: var(--text-light);
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    background: var(--dark);
+    border-bottom: 2px solid var(--pink);
+}
+
+nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--pink);
+}
+
+/* HERO */
+.hero {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 10px black;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.dark-toggle {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 12px 18px;
+    background: var(--pink);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
