@@ -25,4 +25,17 @@ https://pantypasstor.github.io/dj-website/
 ---
 
 ## 📁 Project Structure
-
+dj-website/
+│── index.html
+│── about.html
+│── music.html
+│── availability.html
+│── booking.html
+│── blog.html
+│── style.css
+│── script.js
+└── images/
+     ├── hero.jpg     (IMG_6839.jpg)
+     └── about.jpg    (IMG_7214.jpeg)
+├── hero.jpg
+└── about.jpg
